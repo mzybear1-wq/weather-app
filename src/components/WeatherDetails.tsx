@@ -1,6 +1,6 @@
 import React from 'react';
 import { useWeatherStore } from '../store/useWeatherStore';
-import { Wind, Droplets, Eye, Thermometer, Sunrise, Sunset, Sun } from 'lucide-react';
+import { Wind, Droplets, Eye, Thermometer, Sunset, Sun } from 'lucide-react';
 import { formatTime } from '../utils/format';
 
 export const WeatherDetails: React.FC = () => {

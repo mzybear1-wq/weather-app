@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { useWeatherStore } from './store/useWeatherStore';
 import { SearchBar } from './components/SearchBar';
 import { Favorites } from './components/Favorites';

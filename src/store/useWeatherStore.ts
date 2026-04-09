@@ -1,9 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { 
-  getCurrentWeather, 
   getCurrentWeatherByCoords, 
-  getForecast, 
   getForecastByCoords,
   getCoordinatesByCity
 } from '../api/weather';
